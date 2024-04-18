@@ -1,0 +1,83 @@
+#OmOss-Section {
+  align-items: center;
+  justify-content: center;
+  padding-top: 35px;
+  padding-bottom: 50px;
+  margin-bottom: 100px;
+  gap: 25px;
+  background-color: rgb(234, 234, 234);
+}
+
+.OmOss-Container {
+  justify-content: center;
+  gap: 50px;
+}
+
+.OmOss-Container > div > p {
+  width: 550px;
+  font-size: 17px;
+}
+
+.OmOss-Container > img {
+  width: 500px;
+  height: 340px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1136px) {
+  .OmOss-Section {
+    gap: 15px;
+  }
+
+  .OmOss-Container {
+    flex-wrap: wrap;
+  }
+
+  .OmOss-Container > div > p {
+    font-size: 15.5px;
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 1010px) {
+  .OmOss-Container > div > p {
+    font-size: 16px;
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 686px) {
+  .OmOss-Container > div > p {
+    font-size: 15px;
+    width: 500px;
+  }
+
+  .OmOss-Container > img {
+    width: 450px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .OmOss-Container > div > p {
+    font-size: 14px;
+    width: 400px;
+  }
+
+  .OmOss-Container > img {
+    width: 400px;
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .OmOss-Container > div > p {
+    font-size: 13.5px;
+    width: 350px;
+  }
+
+  .OmOss-Container > img {
+    width: 350px;
+    height: 260px;
+  }
+}

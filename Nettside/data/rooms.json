@@ -1,0 +1,58 @@
+[
+    {
+        "RomNavn":"Singel Room - 247",
+        "RomBeskrivelse":"KJAOISJDOIAJDOIAJDPIAJSPDJAPSJDPAJPDJAPXJAPIJ",
+        "BildeSrc":"./assets/HotelRoomPhotos/Rom1.jpg",
+        "Tilbud":[
+            {
+                "Type":"Rom & Frokost - Fleksibel",
+                "Pris":"15 421 kr",
+                "frokost":true,
+                "spa":false,
+                "utstyr":false
+            },
+            {
+                "Type":"Hotellpakke med Spa",
+                "Pris":"21 382 kr",
+                "frokost":true,
+                "spa":true,
+                "utstyr":false
+            },
+            {
+                "Type":"All Inclusive",
+                "Pris":"24 560 kr",
+                "frokost":true,
+                "spa":true,
+                "utstyr":true
+            }
+        ]
+    },
+    {
+        "RomNavn":"Double Room - 712",
+        "RomBeskrivelse":"KJAOISJDOIAJDOIAJDPIAJSPDJAPSJDPAJPDJAPXJAPIJ",
+        "BildeSrc":"./assets/HotelRoomPhotos/Rom1.jpg",
+        "Tilbud":[
+            {
+                "Type":"Rom & Frokost - Fleksibel",
+                "Pris":"25 421 kr",
+                "frokost":true,
+                "spa":false,
+                "utstyr":false
+            },
+            {
+                "Type":"Hotellpakke med Spa",
+                "Pris":"32 382 kr",
+                "frokost":true,
+                "spa":true,
+                "utstyr":false
+            },
+            {
+                "Type":"All Inclusive",
+                "Pris":"39 560 kr",
+                "frokost":true,
+                "spa":true,
+                "utstyr":true
+            }
+        ]
+    }
+]
