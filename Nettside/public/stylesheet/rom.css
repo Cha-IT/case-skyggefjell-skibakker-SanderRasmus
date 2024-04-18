@@ -1,0 +1,54 @@
+#RomBestill-Section {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 50px;
+}
+
+.Rom-Container {
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.rom {
+  width: 320px;
+  height: 500px;
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 100ms ease-in;
+  cursor: pointer;
+}
+
+.rom:hover {
+  transform: scale(1.05);
+}
+
+.rom > h4 {
+  top: -10px;
+  font-size: 18px;
+}
+.rom > h5 {
+  top: -25px;
+}
+
+.rom > p {
+  top: -30px;
+  font-size: 14px;
+  width: 310px;
+}
+
+.rom > h4,
+.rom > h5,
+.rom > p {
+  position: relative;
+  left: 10px;
+}
+
+.rom > img {
+  border-radius: 7px 7px 0px 0px;
+  width: 320px;
+  height: 215px;
+}

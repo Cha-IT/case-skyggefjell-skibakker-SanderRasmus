@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+
+.Welcome-Section {
+    width: 100%;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #4b6cb7; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4b6cb7, #182848); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4b6cb7, #182848); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.Welcome-Section > div {
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Welcome-Header {
+    justify-content: center;
+    align-items: center;
+}
+
+.Welcome-Links {
+    gap: 20px;
+}
+
+.Welcome-Links > button {
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: row;
+    gap: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    transition: all 0.15s ease-in;
+    font-weight: 600;
+}
+
+.Welcome-Links > button:hover {
+    background-color: white;
+}
+
+.Welcome-Links > button:hover > p {
+    color: black;
+    font-weight: 600;
+}
+
+.Welcome-Links > button:hover > img {
+    filter: none;
+}
+
+.Welcome-Links > button > p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Welcome-Links > button > img {
+    width: 30px;
+    filter: invert();
+}
+
+/* 
+
+Buttons
+
+*/
+
+#Services-Section {
+    margin-top: 50px;
+}
+
+#Services-Section > div {
+    gap: 50px;
+}
+
+.Services-Header {
+    justify-content: center;
+    align-items: center;   
+}
+
+.Services-Header > h3 {
+    font-size: 22px;
+}
+
+.Services-Header > p {
+    width: 900px;
+    text-align: center;
+}
+
+.Services-Buttons {
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.Services-Buttons > div {
+    gap: 55px;
+}
+
+.Services-Buttons > div > a {
+    text-decoration: none;
+}
+
+.Services-Buttons > div > a > button,
+.Services-Buttons > div > button {
+    justify-content: space-between;
+    align-items: center;
+    width: 270px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 10px;
+    border: 0px;
+    transform: scale(1.0);
+    transition: all 0.2s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.Services-Buttons > div > a > button:hover,
+.Services-Buttons > div > button:hover {
+    transform: scale(1.15);
+    transition: all 0.2s ease-in;
+}
+
+.Services-Buttons > div > a > button > img,
+.Services-Buttons > div > button > img {
+    width: 36px;
+    height: 35px;
+}
+
+.Services-Buttons > div > a > button > div,
+.Services-Buttons > div > button > div {
+    position: relative;
+    top: -10px;
+    height: 65px;
+}
+
+.Services-Buttons > div > a > button > div > p,
+.Services-Buttons > div > button > div > p {
+    position: relative;
+    top: -22px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Services-Buttons > div > a > button > div > h4,
+.Services-Buttons > div > button > div > h4 {
+    font-family: 'Poppins', sans-serif;
+}
+
+#RightArrow {
+    width: 15px;
+    height: 17px;
+}

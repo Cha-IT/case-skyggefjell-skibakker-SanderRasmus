@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skyggefjell Resort - Hjem</title>
+    <link rel="stylesheet" href="./stylesheet/style.css" />
+    <link rel="stylesheet" href="./stylesheet/rom.css" />
+    <link rel="stylesheet" href="./stylesheet/about.css" />
+  </head>
+  <body>
+    <header class="f-row">
+      <div class="nav-container f-row">
+        <div class="logo">
+          <a href="./index.html"
+            ><img src="./assets/Skyggefjell_Logo.png" alt=""
+          /></a>
+        </div>
+        <nav>
+          <ul class="f-row">
+            <a href="./index.html"><li>HJEM</li></a>
+            <a href="#RomBestill-Section"><li>BESTILL</li></a>
+            <a href="#OmOss-Section"><li>OM OSS</li></a>
+            <li>
+              <a href="./profile.html"
+                ><button id="MinSideBtn">Min Side</button></a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="Landing-Background" class="f-row">
+      <div class="f-col">
+        <h1>Skyggefjellet Resort</h1>
+        <p>
+          Opplev eventyret på Skyggefjell Skibakkene - Din destinasjon for
+          familieglede og skiglede!
+        </p>
+        <div id="Landing-BildeVelger" class="f-row">
+          <div id="Landing-Bilde1" class="ValgtBilde Valg"></div>
+          <div id="Landing-Bilde2" class="Bildevalg Valg"></div>
+          <div id="Landing-Bilde3" class="Bildevalg Valg"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="RomBestill-Section" class="f-col">
+      <h2>Book et rom hos oss!</h2>
+      <div id="HotelRom-Container" class="Rom-Container f-row"></div>
+    </section>
+
+    <section id="OmOss-Section" class="f-col">
+      <h2>Om Oss!</h2>
+      <div class="OmOss-Container f-row">
+        <div>
+          <p>
+            Velkommen til Skyggefjell Skibakkene AS! Vi er en familiedrevet ski
+            resort i hjertet av Skyggefjellene, grunnlagt av brødrene Henrik og
+            Lars Solberg. Med lidenskap for skisport og natur, har vi skapt et
+            paradis for familier og skielskere.<br /><br />
+          </p>
+          <p>
+            Sammen med vårt dedikerte team, inkludert vår erfarne instruktør Mia
+            og vennlige resepsjonist Jonas, jobber vi hardt for å sikre at hver
+            gjest føler seg velkommen og trygg mens de utforsker våre bakker.<br /><br />
+          </p>
+          <p>
+            Bli med oss og skap minner for livet på Skyggefjell Skibakkene AS -
+            hvor eventyr og moro møtes!
+          </p>
+        </div>
+        <img src="./assets/Ansatte.jpg" alt="" />
+      </div>
+    </section>
+
+    <script type="module" src="./script/hotelrom.js"></script>
+    <script src="./script/LandingBilder.js"></script>
+    <script type="module" src="./script/client.js"></script>
+  </body>
+</html>
